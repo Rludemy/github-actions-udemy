@@ -1,6 +1,9 @@
 name: Hello World  # Name of Workflow
 
-on: push # The event that triggers the workflow .The workflow is triggered when code is pushed to the repository
+on: 
+  push: # The event that triggers the workflow
+     branches:
+      - '**'
 
 jobs:
   build:
