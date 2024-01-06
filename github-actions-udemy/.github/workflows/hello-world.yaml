@@ -1,7 +1,6 @@
 name: Hello World  # Name of Workflow
 
-on: push # The event that triggers the workflow
-
+on: [push] # The event that triggers the workflow
 
 jobs:
   build:
