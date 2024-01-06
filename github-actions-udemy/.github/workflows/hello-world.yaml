@@ -1,9 +1,7 @@
 name: Hello World  # Name of Workflow
 
-on: 
-  push: # The event that triggers the workflow
-     branches:
-      - '**'
+on: push # The event that triggers the workflow
+
 
 jobs:
   build:
